@@ -6,7 +6,7 @@ containerにインストールしたjupyter-notebookを使う方法をまとめ�
 1. 以下のコマンドを実行する
 ```
 mkdir -p ./mounted_folder/udemy
-docker build -f ./Dockerfile . -t miharasatsuki/jupyter-notebook
+docker build --no-cache -f ./Dockerfile . -t miharasatsuki/jupyter-notebook --platform=linux/amd64
 docker run -p 8888:8888 -v ~/work/docker/my_tools/jupyterlab/mounted_folder/udemy/:/work --name my-lab miharasatsuki/jupyter-notebook
 ```
 2. ブラウザからlocalhost:8888でアクセスする。
