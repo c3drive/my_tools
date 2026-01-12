@@ -1,0 +1,12 @@
+services:
+  marimo:
+    build: .
+    container_name: claude_learning_env
+    ports:
+      - "2718:2718"
+    volumes:
+      - ./mounted_folder:/app  # 今いる場所をコンテナの/appに同期させる
+    env_file:
+      - .env    # .envファイルから環境変数を読み込む
+    stdin_open: true
+    tty: true

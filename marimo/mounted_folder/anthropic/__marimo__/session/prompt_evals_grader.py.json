@@ -1,0 +1,117 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f704ef67ec88e3261278e394ba9f2073",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "1a7025df028e02bf3bd0dea89672fda0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "f3bbdb1bdc00f2c3137b6f3f354d608a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "26aaad8a3f4973c7e151a866868649a8",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CX2oQTRr5kwLRLqa8pB6N'}",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_122/__marimo__cell_bkHC_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">_dataset</span> <span class=\"o\">=</span> <span class=\"n\">generate_dataset</span><span class=\"p\">()</span>\n<span class=\"w\">               </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_122/__marimo__cell_vblA_.py&quot;</span>, line <span class=\"m\">31</span>, in <span class=\"n\">generate_dataset</span>\n<span class=\"w\">    </span><span class=\"n\">text</span> <span class=\"o\">=</span> <span class=\"n\">chat</span><span class=\"p\">(</span><span class=\"n\">messages</span><span class=\"p\">,</span> <span class=\"n\">stop_sequences</span><span class=\"o\">=</span><span class=\"p\">[</span><span class=\"s2\">&quot;```&quot;</span><span class=\"p\">])</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_122/__marimo__cell_MJUe_.py&quot;</span>, line <span class=\"m\">24</span>, in <span class=\"n\">chat</span>\n<span class=\"w\">    </span><span class=\"n\">message</span> <span class=\"o\">=</span> <span class=\"n\">client</span><span class=\"o\">.</span><span class=\"n\">messages</span><span class=\"o\">.</span><span class=\"n\">create</span><span class=\"p\">(</span><span class=\"o\">**</span><span class=\"n\">params</span><span class=\"p\">)</span>\n<span class=\"w\">              </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/local/lib/python3.11/site-packages/anthropic/_utils/_utils.py&quot;</span>, line <span class=\"m\">282</span>, in <span class=\"n\">wrapper</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">func</span><span class=\"p\">(</span><span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/local/lib/python3.11/site-packages/anthropic/resources/messages/messages.py&quot;</span>, line <span class=\"m\">930</span>, in <span class=\"n\">create</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_post</span><span class=\"p\">(</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/local/lib/python3.11/site-packages/anthropic/_base_client.py&quot;</span>, line <span class=\"m\">1326</span>, in <span class=\"n\">post</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">cast</span><span class=\"p\">(</span><span class=\"n\">ResponseT</span><span class=\"p\">,</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">request</span><span class=\"p\">(</span><span class=\"n\">cast_to</span><span class=\"p\">,</span> <span class=\"n\">opts</span><span class=\"p\">,</span> <span class=\"n\">stream</span><span class=\"o\">=</span><span class=\"n\">stream</span><span class=\"p\">,</span> <span class=\"n\">stream_cls</span><span class=\"o\">=</span><span class=\"n\">stream_cls</span><span class=\"p\">))</span>\n<span class=\"w\">                           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/local/lib/python3.11/site-packages/anthropic/_base_client.py&quot;</span>, line <span class=\"m\">1114</span>, in <span class=\"n\">request</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_make_status_error_from_response</span><span class=\"p\">(</span><span class=\"n\">err</span><span class=\"o\">.</span><span class=\"n\">response</span><span class=\"p\">)</span> <span class=\"kn\">from</span><span class=\"w\"> </span><span class=\"kc\">None</span>\n<span class=\"gr\">anthropic.BadRequestError</span>: <span class=\"n\">Error code: 400 - {&#39;type&#39;: &#39;error&#39;, &#39;error&#39;: {&#39;type&#39;: &#39;invalid_request_error&#39;, &#39;message&#39;: &#39;Your credit balance is too low to access the Anthropic API. Please go to Plans &amp; Billing to upgrade or purchase credits.&#39;}, &#39;request_id&#39;: &#39;req_011CX2oQTRr5kwLRLqa8pB6N&#39;}</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "db8869de398bbb2bd9bf0db16f22190e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "b5f65bdbff588033f4427890ebb5052d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "8202b5aa7a7b90c708b2b0baf91321a3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "4eb8464c389c53b286188c09fe140004",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "6c16887721252fb781e39007d5ecf060",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "ce1e4808002ac0c7b328cf546c9d97f6",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

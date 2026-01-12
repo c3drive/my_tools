@@ -1,0 +1,94 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "2ed8d2524fc8a20d5ad8d56480d7d987",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "fdadb3fac602f3d362c1c9337efe17e2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"_1\">\u74b0\u5883\u5909\u6570\u3092\u8aad\u307f\u8fbc\u307f</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "367682fce9ffa42ef3f21c43c4e5e3c9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "d03d22a24f960f08a499eb1b18dcece7",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "743cfc887490e11e3a8ed4eac97d7b40",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "f4a8aa8a00a098fdd0f538915f829dee",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "1bcb1b2b56f283d5552cbda20cc3a6b4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"temperature\">temperature</h1>\n<span class=\"paragraph\"><strong>\u4f4e\u6e29\uff080.0\uff5e0.3\uff09</strong></span>\n<ul>\n<li>\u4e8b\u5b9f\u306b\u57fa\u3065\u304f\u56de\u7b54</li>\n<li>\u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u652f\u63f4</li>\n<li>\u30c7\u30fc\u30bf\u62bd\u51fa</li>\n<li>\u30b3\u30f3\u30c6\u30f3\u30c4\u306e\u30e2\u30c7\u30ec\u30fc\u30b7\u30e7\u30f3</li>\n</ul>\n<span class=\"paragraph\"><strong>\u4e2d\u6e29\uff080.4\uff5e0.7\uff09</strong></span>\n<ul>\n<li>\u8981\u7d04</li>\n<li>\u6559\u80b2\u30b3\u30f3\u30c6\u30f3\u30c4</li>\n<li>\u554f\u984c\u89e3\u6c7a</li>\n<li>\u5236\u7d04\u306e\u3042\u308b\u5275\u4f5c</li>\n</ul>\n<span class=\"paragraph\"><strong>\u9ad8\u6e29\uff080.8\uff5e1.0\uff09</strong></span>\n<ul>\n<li>\u30d6\u30ec\u30a4\u30f3\u30b9\u30c8\u30fc\u30df\u30f3\u30b0</li>\n<li>\u5275\u4f5c\u6587</li>\n<li>\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0\u30b3\u30f3\u30c6\u30f3\u30c4</li>\n<li>\u30b8\u30e7\u30fc\u30af\u4e16\u4ee3</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "ff2f70e57f4371646616a5b95c717159",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "6c47fa73bff4d5c80b1315dd5e1cf911",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "54d8b009996339c550153c0776f85238",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "997b98c255643bd062592397cff94d32",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "83699ce66754e643e80cb774e87c2900",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
